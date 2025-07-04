@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #2c3e50; /* Cor de fundo escura */
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .logo:hover {
+    color: #f39c12; /* Cor laranja no hover */
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 2rem; /* Espaçamento entre os links */
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    color: #f39c12; /* Cor laranja no hover */
+  }
