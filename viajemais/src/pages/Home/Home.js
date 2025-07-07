@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css'; // 
+import './Home.css'; 
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Banner Hero */}
       <section className="hero-banner">
         <div className="banner-overlay">
           <h1>Explore o mundo com a ViajeMais</h1>
@@ -15,7 +14,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Seção de Destaques (opcional) */}
       <section className="highlights">
         <div className="highlight-card">
           <h3>Destinos Exóticos</h3>

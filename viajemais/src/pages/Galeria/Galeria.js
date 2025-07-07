@@ -1,13 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  IconButton,
-  ImageList,
-  ImageListItem,
-  ImageListItemBar
-} from '@mui/material';
+import { Dialog,DialogTitle,DialogContent,IconButton,ImageList,ImageListItem,ImageListItemBar} from '@mui/material';
 import { Close, ZoomIn } from '@mui/icons-material';
 import './Galeria.css'; 
 
@@ -97,7 +89,6 @@ const Galeria = () => {
           ))}
         </ImageList>
 
-        {/* Modal para visualização ampliada */}
         <Dialog
           open={open}
           onClose={handleClose}

@@ -1,0 +1,66 @@
+.blog-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('./img/fundo-blog.jpg') center/cover fixed;
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .MuiCard-root {
+    border-radius: 12px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .MuiTypography-h3 {
+    color: white !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .MuiTypography-h5 {
+    font-weight: 600 !important;
+    color: #2c3e50;
+  }
+  
+  .MuiTypography-body2 {
+    color: #555 !important;
+  }
+  
+  .MuiButton-contained {
+    background-color: #99BC85 !important;
+    color: white !important;
+    font-weight: 600 !important;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #88a876 !important;
+  }
+  
+  @media (max-width: 900px) {
+    .blog-page {
+      padding-top: 70px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .MuiGrid-item {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+    
+    .MuiTypography-h3 {
+      font-size: 2rem !important;
+    }
+    
+    .MuiCard-root {
+      background-color: rgba(255, 255, 255, 0.98) !important;
+    }
+  }

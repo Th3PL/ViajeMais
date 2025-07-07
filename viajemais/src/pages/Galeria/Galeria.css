@@ -4,7 +4,7 @@
                 url('./img/fundo_galeria.jpg') center/cover fixed;
     min-height: 100vh;
     padding: 2rem;
-    padding-top: 80px; /* Compensa a navbar */
+    padding-top: 80px; 
   }
   
   .galeria-content {
@@ -16,7 +16,6 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   }
   
-  /* Estilos das imagens */
   .image-list .MuiImageListItem-root {
     overflow: hidden;
     border-radius: 8px;
@@ -41,7 +40,6 @@
     transform: scale(1.05);
   }
   
-  /* Ajuste para mobile */
   @media (max-width: 900px) {
     .image-list {
       grid-template-columns: repeat(2, 1fr) !important;
