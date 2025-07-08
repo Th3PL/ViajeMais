@@ -73,4 +73,8 @@ Um portal completo para amantes de viagens, com blog, galeria de fotos e seção
 
 ## 👨‍💻 Desenvolvido por
 
+<<<<<<< HEAD
 - 🚀 Pedro Lucas de Andrade Nunes
+=======
+- 🚀 Pedro Lucas de Andrade Nunes
+>>>>>>> defef290fbd6de93084b06610733c1450306ddf0
